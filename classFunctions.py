@@ -114,8 +114,8 @@ class dataFramer:
         self.symbol = symbolUnderlying
         self.startDate = startDate
         self.endDate = endDate
-        self.fileNameOption = os.path.join('/mount/src/optionstreamapp/devoirOptions', f'options_data_')
-        self.fileNameUnderlying = os.path.join('/mount/src/optionstreamapp/devoirOptions', f'data_underlying_{symbolUnderlying}')
+        self.fileNameOption = os.path.join('/mount/src/optionwork/devoirOptions', f'options_data_')
+        self.fileNameUnderlying = os.path.join('/mount/src/optionwork/devoirOptions', f'data_underlying_{symbolUnderlying}')
         self.fileType= ".xlsx"
 
         self.missingDatesList = list()
